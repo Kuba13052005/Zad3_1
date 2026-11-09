@@ -11,5 +11,10 @@ public class Main {
             }
             System.out.println();
         }
+
+        for (int i = 1; i <= wysokosc - 1; i++) {
+            System.out.print(" ");
+        }
+        System.out.println("*");
     }
 }
